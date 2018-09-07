@@ -1,5 +1,13 @@
-body{
-  background-color: #84c34a;
+body {
+  background-color: cyan;
+  font-family: 'Poppins', sans-serif;
+}
 
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 75px;
+}
 
+p {
+  font-family: 'PT Sans', sans-serif;
 }

@@ -1,5 +1,5 @@
-const LandGridView = ('') //gridview
-const Landmark = require('') //model
+const LandGridView = require(''); //gridview
+const Landmark = require(''); //model
 
 document.addEventListener('DOMContentLoaded') , () => {
   const landmarkContainer = document.querySelector('div#landmarks');
@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded') , () => {
   landmarkGridView.bindEvents();
 
   const landmark = new Landmark();
-  games.bindEvents();
-  games.getData();
-
+  landmark.bindEvents();
+  landmark.getData();
 });
