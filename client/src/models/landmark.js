@@ -5,6 +5,18 @@ const Landmark = function(url) {
   this.url = url;
 }
 
+Landmark.prototype.bindEvents = function() {
+  PubSub.subscribe("LandmarkGridItemView:landmark-selected", event => {
+    const landmarkName = event.detail;
+    const request = new Request(`${this.url}/${landmarkName}`);
+    request
+      .get()
+      .then(data => {
+        PubSub.publish("LandmarkModel:landmark-ready", data);
+      })
+  })
+}
+
 Landmark.prototype.getData = function() {
   const request = new Request(this.url);
   request
