@@ -5,7 +5,7 @@ const LandmarkView = function(container) {
 }
 
 LandmarkView.prototype.bindEvents() = function() {
-  PubSub.subscribe("LandmarkGridItemView:landmark-selected", landmark => {
+  PubSub.subscribe("LandmarkModel:landmark-selected", landmark => {
     this.render(landmark);
   })
 }
