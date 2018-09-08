@@ -15,4 +15,10 @@ LandmarkGridItemView.prototype.render = function (landmark) {
   this.container.appendChild(landmarkContainer);
 };
 
+LandmarkGridItemView.prototype.createHeading = function (landarkName) {
+  const heading = document.createElement('h2');
+  heading.textContent = landmarkName;
+  return heading;
+};
+
 module.exports = LandmarkGridItemView;
