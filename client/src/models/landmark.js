@@ -12,7 +12,7 @@ Landmark.prototype.bindEvents = function() {
     request
       .get()
       .then(data => {
-        PubSub.publish("LandmarkModel:landmark-ready", data);
+        PubSub.publish("LandmarkModel:landmark-selected", data);
       })
   })
 }
