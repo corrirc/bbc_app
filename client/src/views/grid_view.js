@@ -7,7 +7,13 @@ const LandmarkGridView = function (container) {
 
 LandmarkGridView.prototype.bindEvents = function () {
   PubSub.subscribe('Landmarks:data-loaded', (event) => {
-    this.render(event.detail);
+    const menuItems = this.render(event.detail);
+    menuItems.forEach((menuItem) => {
+      menuItem.addEventListener('click', (event) => {
+        const selectedLandmark = event.target;
+        PubSub.publish('LandmarkGridItemView:landmark-selected', selectedLandmark);
+      });
+    });
   });
 };
 
