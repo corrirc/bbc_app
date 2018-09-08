@@ -11,4 +11,12 @@ LandmarkGridView.prototype.bindEvents = function () {
   });
 };
 
+LandmarkGridView.prototype.render = function (landmarks) {
+  this.container.innerHTML = '';
+  const landmarkGridItemView = new LandmarkGridItemView(this.container);
+  items.forEach((landmark) => {
+    landmarkGridItemView.render(landmark)
+  });
+};
+
 module.exports = LandmarkGridView;
