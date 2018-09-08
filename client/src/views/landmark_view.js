@@ -17,6 +17,10 @@ LandmarkView.prototype.render = function(landmark) {
   landmarkName.textContent = landmark.name;
   this.container.appendChild(landmarkName);
 
+  const landmarkImage = document.createElement('img');
+  landmarkImage.src = landmark.image;
+  this.container.appendChild(landmarkImage);
+
   const landmarkLocation = document.createElement('p');
   landmarkLocation.textContent = `Location: ${landmark.location}`
   this.container.appendChild(landmarkLocation);
