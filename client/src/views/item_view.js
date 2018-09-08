@@ -11,6 +11,8 @@ LandmarkGridItemView.prototype.render = function (landmark) {
 
   const landmarkPic = this.createImage(landmark.clipart);
   landmarkPic.appendChild(landmarkPic);
+
+  this.container.appendChild(landmarkContainer);
 };
 
 module.exports = LandmarkGridItemView;
