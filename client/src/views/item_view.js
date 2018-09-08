@@ -21,4 +21,10 @@ LandmarkGridItemView.prototype.createHeading = function (landarkName) {
   return heading;
 };
 
+LandmarkGridItemView.prototype.createImage = function (picture) {
+  const landmarkImage = document.createElement('img');
+  landmarkImage.src = picture;
+  return landmarkImage
+};
+
 module.exports = LandmarkGridItemView;
