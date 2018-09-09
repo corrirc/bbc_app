@@ -17,7 +17,7 @@ db.landmarks.insertMany([
     landmark_picture:
     landmark_facts: "Machu Picchu was found in 1911 when an explorer decided to find out if rumours about ancient Inca ruins were true.  It is made up of many buildings and pathways, but no one knows very much about who built it or why it was built."
     clipart: "/images/clipart/machupicchu.jpeg",
-    did_you_know_fact:
+    did_you_know_fact: "Ruins can be found all over the United Kingdom; an example of this is Scotland's Skara Brae, a village from prehistoric times."
     landmark_url "https://www.lonelyplanet.com/peru/machu-picchu"
   },
   {
