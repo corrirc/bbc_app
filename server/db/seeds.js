@@ -101,15 +101,15 @@ db.landmarks.insertMany([
     did_you_know_fact "The National Monument of Scotland, in Edinburgh, started in 1826, was supposed to look like the Parthenon, however only the base and 12 columns were ever completed and then the project was abandoned.",
     landmark_url: "https://whc.unesco.org/en/list/404"
   },
-  // {
-  //   landmark_name: "The Colosseum",
-  //   landmark_location"Italy",
-  //   landmark_picture: "/images/pictures/",
-  //   landmark_facts: ""
-  //   clipart: "/images/clipart/"
-  //   did_you_know_fact:
-  //   landmark_url "https://www.rome.info/colosseum/"
-  // },
+  {
+    landmark_name: "The Colosseum",
+    landmark_location: "Italy",
+    landmark_picture: "/images/pictures/colosseum.jpg",
+    landmark_facts: "The Colosseum only took 8 years to build, using concrete and stone, and was completed around 80 AD. An amphitheatre is an ancient sports arena where gladiators used to fight.  The Colosseum was different to most Greek amphitheatres as they were usually built into the sides of hills, but the Colosseum stood all by itself in the middle of Rome.  Over the years, the Colosseum has been damaged by fires, earthquakes, wars, people stealing the bricks to use for other buildings, and even by plants. It is believed that that it is in places such as the ancient Colosseum that the event we now know as the Olympic Games was born."
+    // clipart: "/images/clipart/"
+    did_you_know_fact: "Shakespear's Globe Theatre in London was built as a smaller version of the Colosseum, in the same round shape and with seating on different levels as the Colosseum once had."
+    landmark_url "https://www.rome.info/colosseum/"
+  },
   //
   // {
   //   landmark_name: "",
