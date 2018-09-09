@@ -33,9 +33,9 @@ db.landmarks.insertMany([
     landmark_name: "The Statue of Liberty",
     landmark_location: "United States of America",
     landmark_picture:
-    landmark_facts: ""
+    landmark_facts: "The Statue of Liberty was originally a gift from the French; to remember of how France and the United States of American worked together during the Amerian Revolution.  She is made out of copper, but her torch was recovered in 1986 with thin 24 carat gold sheets.  Gustave Eiffel, who is famous for another French landmark, helped to work on Lady Liberty's inner metal skeleton."
     clipart: "/images/clipart/liberty.jpg",
-    did_you_know_fact:
+    did_you_know_fact: "Statues are very popular and can be seen all over the United Kingdom; from Winston Churchill to Boudica, to Glasgow's own cone-wearing Duke of Wellington."
     landmark_url: "https://www.nps.gov/stli/index.htm"
   }
 
