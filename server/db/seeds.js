@@ -72,26 +72,26 @@ db.landmarks.insertMany([
     landmark_picture: "/images/pictures/tajmahal.jpeg",
     landmark_facts: "The Taj Mahal was built as a burial place (or mausoleum) for one of the wives of the emperor, Shah Jahan.  Built out of white marble, it took just over 20 years to complete. The Taj Mahal was built completely symmetrical, but also has parts tilted outwards so that if it collapsed it would fall away from the burial chambers in the middle.",
     clipart: "/images/clipart/tajmahal.jpeg",
-    did_you_know_fact:  "The United Kingdom is well known for its graveyards and cemetaries, and while they rarely contain mausoleums, places like Westminster Abbey, Iona Abbey and Greyfriars Kirkyard attract many visitors."
+    did_you_know_fact:  "The United Kingdom is well known for its graveyards and cemetaries, and while they rarely contain mausoleums, places like Westminster Abbey, Iona Abbey and Greyfriars Kirkyard attract many visitors.",
     landmark_url: "https://whc.unesco.org/en/list/252"
   },
   {
     landmark_name: "Great Pyramid of Giza",
     landmark_location: "Egypt",
     landmark_picture: "/images/pictures/pyramid.jpeg",
-    landmark_facts: "Built for similar reasons as the Taj Mahal, the Great Pyramid of Giza contains 3 burial chambers, the main and highest one was for the Pharaoh Khufu. It took about 20 years to build and needed about 2.3 million stone blocks.  Of the pyramids in Giza the Pyramid of Khufu is the biggest and the oldest. Interestingly, it is the mortar between the bricks that is stronger than the bricks themselves and even with testing no one can figure out how to remake it!?"
+    landmark_facts: "Built for similar reasons as the Taj Mahal, the Great Pyramid of Giza contains 3 burial chambers, the main and highest one was for the Pharaoh Khufu. It took about 20 years to build and needed about 2.3 million stone blocks.  Of the pyramids in Giza the Pyramid of Khufu is the biggest and the oldest. Interestingly, it is the mortar between the bricks that is stronger than the bricks themselves and even with testing no one can figure out how to remake it!?",
     clipart: "/images/clipart/pyramids.jpeg",
-    did_you_know_fact: "If you look around the United Kingdom, you can see lots of really old things built out of stone; the most popular is dry stone walls; they don't use any mortar in between the stones and can last hundreds of years sometimes!"
+    did_you_know_fact: "If you look around the United Kingdom, you can see lots of really old things built out of stone; the most popular is dry stone walls; they don't use any mortar in between the stones and can last hundreds of years sometimes!",
     landmark_url "https://www.nationalgeographic.com/archaeology-and-history/archaeology/giza-pyramids/"
   },
   {
     landmark_name: "Moai Statues",
     landmark_location"Easter Island",
     landmark_picture: "/images/pictures/moai1.jpg",
-    landmark_facts: ""
+    landmark_facts: "Unlike some of the other landmarks, the Moai statues are not buildings.  Instead of going inside, you have to go out to see them, on an island in the Pacific Ocean.  They are prehistoric carved figures that range in size from just under 2 metres to about 10 metres tall; although one was found lying down that would have been over 20 metres tall!  There are over 880 known statues almost all positioned along the shores and facing in across the land.",
     clipart: "/images/clipart/moai.jpeg",
-    did_you_know_fact:
-    landmark_url: "https://www.easterisland.travel/easter-island-facts-and-info/moai-statues/"
+    did_you_know_fact: "While they are not carved like people, all across the United Kingdom, ancient standing stones can be found.",
+    landmark_url:  "https://www.easterisland.travel/easter-island-facts-and-info/moai-statues/"
   },
   {
     landmark_name: "Parthenon",
