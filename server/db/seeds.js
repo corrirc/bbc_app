@@ -69,16 +69,16 @@ db.landmarks.insertMany([
   {
     landmark_name: "Taj Mahal",
     landmark_location: "India",
-    landmark_picture:
-    landmark_facts: ""
+    landmark_picture: "/images/pictures/tajmahal.jpeg",
+    landmark_facts: "The Taj Mahal was built as a burial place (or mausoleum) for one of the wives of the emperor, Shah Jahan.  Built out of white marble, it took just over 20 years to complete. The Taj Mahal was built completely symmetrical, but also has parts tilted outwards so that if it collapsed it would fall away from the burial chambers in the middle.",
     clipart: "/images/clipart/tajmahal.jpeg",
-    did_you_know_fact:
+    did_you_know_fact:  "The United Kingdom is well known for its graveyards and cemetaries, and while they rarely contain mausoleums, places like Westminster Abbey, Iona Abbey and Greyfriars Kirkyard attract many visitors."
     landmark_url: "https://whc.unesco.org/en/list/252"
   },
   {
     landmark_name: "Great Pyramid of Giza",
     landmark_location: "Egypt",
-    landmark_picture:
+    landmark_picture: "/images/pictures/pyramid.jpeg",
     landmark_facts: ""
     clipart: "/images/clipart/pyramids.jpeg",
     did_you_know_fact:
@@ -87,25 +87,25 @@ db.landmarks.insertMany([
   {
     landmark_name: "Moai Statues",
     landmark_location"Easter Island",
-    landmark_picture:
+    landmark_picture: "/images/pictures/moai1.jpg",
     landmark_facts: ""
     clipart: "/images/clipart/moai.jpeg",
     did_you_know_fact:
     landmark_url: "https://www.easterisland.travel/easter-island-facts-and-info/moai-statues/"
   },
   {
-    landmark_name: "Acropolis",
+    landmark_name: "Parthenon",
     landmark_location: "Greece",
-    landmark_picture:
+    landmark_picture: "/images/pictures/Parthenon3.jpg",
     landmark_facts: ""
-    clipart: "/images/clipart/acropolis.jpeg",
+    clipart: "/images/clipart/parthenon.jpeg",
     did_you_know_fact:
     landmark_url: "https://whc.unesco.org/en/list/404"
   },
   {
     landmark_name: "The Colosseum",
     landmark_location"Italy",
-    landmark_picture:
+    landmark_picture: "/images/pictures/big-ben.jpg",
     landmark_facts: ""
     clipart: "/images/clipart/"
     did_you_know_fact:
