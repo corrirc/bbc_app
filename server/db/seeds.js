@@ -6,7 +6,7 @@ db.landmarks.insertMany([
     landmark_name: "Great Wall of China",
     landmark_location: "China",
     landmark_picture:
-    landmark_facts: "The Great Wall is not actually a single wall but a series of walls that together are more than 13,000 miles long.  The wall is over 2,300 years old and because of that some parts of the wall been badly damaged or have disappeared completely."
+    landmark_facts: "The Great Wall is not actually a single wall but a series of walls that together are more than 13,000 miles long.  The wall is over 2,300 years old and because of that some parts of the wall been badly damaged or have disappeared completely.  Work to rebuild and protect parts of the wall started in 1957."
     clipart: "/images/clipart/greatwall.jpeg",
     did_you_know_fact: "There is a famous wall in the United Kingdom, called Hadrian's Wall; it however is only 73 miles long."
     landmark_url: "https://www.chinahighlights.com/greatwall/"
@@ -15,7 +15,7 @@ db.landmarks.insertMany([
     landmark_name: "Machu Picchu",
     landmark_location: "Peru",
     landmark_picture:
-    landmark_facts: ""
+    landmark_facts: "Machu Picchu was found in 1911 when an explorer decided to find out if rumours about ancient Inca ruins were true.  It is made up of many buildings and pathways, but no one knows very much about who built it or why it was built."
     clipart: "/images/clipart/machupicchu.jpeg",
     did_you_know_fact:
     landmark_url "https://www.lonelyplanet.com/peru/machu-picchu"
