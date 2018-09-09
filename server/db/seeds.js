@@ -6,9 +6,9 @@ db.landmarks.insertMany([
     landmark_name: "Great Wall of China",
     landmark_location: "China",
     landmark_picture:
-    landmark_facts: ""
+    landmark_facts: "The Great Wall is not actually a single wall but a series of walls that together are more than 13,000 miles long.  The wall is over 2,300 years old and because of that some parts of the wall been badly damaged or have disappeared completely."
     clipart: "/images/clipart/greatwall.jpeg",
-    did_you_know_fact:
+    did_you_know_fact: "There is a famous wall in the United Kingdom, called Hadrian's Wall; it however is only 73 miles long."
     landmark_url: "https://www.chinahighlights.com/greatwall/"
   },
   {
@@ -24,9 +24,9 @@ db.landmarks.insertMany([
     landmark_name: "CodeClan Glasgow",
     landmark_location: "Glasgow",
     landmark_picture:
-    landmark_facts:
+    landmark_facts "Currently there are only the 2 CodeClan locations, the first is in Edinburgh at Castle Terrace.  CodeClan Glasgow is the second location, and it can be found in the Clockwork Building off Renfrew Street."
     clipart: ""
-    did_you_know_fact:
+    did_you_know_fact:  "It is the first and only digital skills academy in Scotland that is accredited by SQA."
     landmark_url "https://codeclan.com/"
   },
   {
