@@ -79,9 +79,9 @@ db.landmarks.insertMany([
     landmark_name: "Great Pyramid of Giza",
     landmark_location: "Egypt",
     landmark_picture: "/images/pictures/pyramid.jpeg",
-    landmark_facts: ""
+    landmark_facts: "Built for similar reasons as the Taj Mahal, the Great Pyramid of Giza contains 3 burial chambers, the main and highest one was for the Pharaoh Khufu. It took about 20 years to build and needed about 2.3 million stone blocks.  Of the pyramids in Giza the Pyramid of Khufu is the biggest and the oldest. Interestingly, it is the mortar between the bricks that is stronger than the bricks themselves and even with testing no one can figure out how to remake it!?"
     clipart: "/images/clipart/pyramids.jpeg",
-    did_you_know_fact:
+    did_you_know_fact: "If you look around the United Kingdom, you can see lots of really old things built out of stone; the most popular is dry stone walls; they don't use any mortar in between the stones and can last hundreds of years sometimes!"
     landmark_url "https://www.nationalgeographic.com/archaeology-and-history/archaeology/giza-pyramids/"
   },
   {
