@@ -52,9 +52,9 @@ db.landmarks.insertMany([
     landmark_name: "Leaning Tower of Pisa",
     landmark_location: "Italy",
     landmark_picture:
-    landmark_facts: ""
+    landmark_facts: "The Leaning Tower of Pisa was never meant to lean when it was started in August of 1173; it is like this as the ground is too soft and it wasn't well planned.  It took over 300 years to build, because wars kept stopping construction, and only started to lean when the second floor was added. Two times, first in 1990 and again in 2008, attempts have been made to stop the tower from tipping over further and while it isn't moving right now it could again in the future.",
     clipart: "/images/clipart/pisa.jpeg",
-    did_you_know_fact:
+    did_you_know_fact "The Leaning Tower of Pisa is not the only building in the world to be leaning; a number of churches in the United Kingdom have similar tilts, including the Temple Church in Bristol, St Nicholas' Church in Gloucester, St James' Church in Dry Doddington, and Glasgow even has a leaning fountain!",
     landmark_url: "http://www.towerofpisa.org/"
   },
   {
