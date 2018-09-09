@@ -61,9 +61,9 @@ db.landmarks.insertMany([
     landmark_name: "Big Ben",
     landmark_location: "United Kingdom",
     landmark_picture:
-    landmark_facts: ""
+    landmark_facts: "Big Ben, as it is often called, is not actually the tower; Big Ben is actually the nickname of the 'Great Bell' of the clock that is part of the Elizabeth Tower in London.  Big Ben, the biggest chiming clock with 4 faces, started ticking on the 7th of September 1859. Interstingly, the original bell broke just one day after it was tested, but then it was broken up and pieces of it were put inside the current bell! Like another famous landmark, this tower has begun to lean to one side becauses of the ground it is build on.",
     clipart: "/images/clipart/ben.jpeg",
-    did_you_know_fact:
+    did_you_know_fact: "The clocks on Big Ben were not the largest in the United Kingdom, from 1905 to 1963, Clydebank Scotland had the Singer Clock that had a clock face that was actually 5 feet bigger!",
     landmark_url: "https://www.parliament.uk/bigben"
   },
   {
