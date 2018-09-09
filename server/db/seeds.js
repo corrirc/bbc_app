@@ -97,15 +97,15 @@ db.landmarks.insertMany([
     landmark_name: "Parthenon",
     landmark_location: "Greece",
     landmark_picture: "/images/pictures/Parthenon3.jpg",
-    landmark_facts: ""
+    landmark_facts: "Built around 450 BC out of limestone, the Parthenon was a temple to worship the Greek Goddess Athena.  It is believed that once a large gold statue of the goddess once stood inside the temple, but that it was either lost or destroyed by the Romans.  Although it was built as a temple, in later times it was also used as a church and a mosque."
     clipart: "/images/clipart/parthenon.jpeg",
-    did_you_know_fact:
+    did_you_know_fact "The National Monument of Scotland, in Edinburgh, started in 1826, was supposed to look like the Parthenon, however only the base and 12 columns were ever completed and then the project was abandoned."
     landmark_url: "https://whc.unesco.org/en/list/404"
   },
   {
     landmark_name: "The Colosseum",
     landmark_location"Italy",
-    landmark_picture: "/images/pictures/big-ben.jpg",
+    landmark_picture: "/images/pictures/",
     landmark_facts: ""
     clipart: "/images/clipart/"
     did_you_know_fact:
