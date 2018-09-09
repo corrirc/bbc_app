@@ -37,8 +37,7 @@ db.landmarks.insertMany([
     clipart: "/images/clipart/liberty.jpg",
     did_you_know_fact: "Statues are very popular and can be seen all over the United Kingdom; from Winston Churchill to Boudica, to Glasgow's own cone-wearing Duke of Wellington.",
     landmark_url: "https://www.nps.gov/stli/index.htm"
-  }
-
+  },
   {
     landmark_name: "Eiffel Tower",
     landmark_location: "France",
