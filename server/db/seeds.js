@@ -122,11 +122,11 @@ db.landmarks.insertMany([
   {
     landmark_name: "Angkor Wat",
     landmark_location: "Cambodia",
-    landmark_picture: "/images/pictures/colosseum.jpg",
-    landmark_facts:
-    clipart:
-    did_you_know_fact:
-    landmark_url:
+    landmark_picture: "/images/pictures/angkor.jpg",
+    landmark_facts: "Angkor Wat is the largest religious landmark in the world.  At 1,626,000 square metres, it was built originally as a Hindu temple for the god Vishnu.  The name actually translates to 'City of Temples'.",
+    // clipart: "/images/clipart/",
+    did_you_know_fact: "The United Kingdom does not have a whole city of temples, but everywhere you look there are ancient monuments and religious places of worship.",
+    landmark_url: "https://www.tourismcambodia.com/attractions/angkor/angkor-wat.htm"
   },
   // {
   //   landmark_name: "",
