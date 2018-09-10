@@ -41,6 +41,9 @@ LandmarkGridItemView.prototype.createToggle = function (status) {
   const inputType = document.createElement('input');
   inputType.type = "checkbox";
   label.appendChild(inputType);
+  const slider = document.createElement('span');
+  slider.classList.add('slider');
+  label.appendChild(slider);
   return toggleDiv;
 };
 
