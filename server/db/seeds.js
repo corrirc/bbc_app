@@ -43,7 +43,7 @@ db.landmarks.insertMany([
     landmark_location: "France",
     landmark_picture:  "/images/pictures/Eiffel_Tower.jpg",
     landmark_facts: "Finished on the 31st of March 1889, after just over 2 years of construction, the Eiffel Tower was never meant to stand more than 20 years; it is still standing today as it has been used as antennas and transmitters.  For over 40 years, it was the tallest man-made structure in the world, standing at just over 320 metres tall.",
-    clipart: "/images/clipart/eiffle.jpeg",
+    clipart: "/images/clipart/eiffel.jpeg",
     did_you_know_fact:  "A similar looking tower can be seen in Blackpool England, as the mayor of the local area was so impressed when he saw it at the World's Fair in 1889; Las Vegas in America and an amusement park in China also have their own versions of the Eiffel Tower.",
     landmark_url: "https://www.toureiffel.paris/en"
   },
@@ -121,7 +121,7 @@ db.landmarks.insertMany([
   },
   {
     landmark_name: "Angkor Wat",
-    landmark_location: "",
+    landmark_location: "Cambodia",
     landmark_picture: "/images/pictures/colosseum.jpg",
     landmark_facts:
     clipart:
