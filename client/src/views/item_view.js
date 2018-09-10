@@ -4,18 +4,18 @@ const LandmarkGridItemView = function (container) {
 
 LandmarkGridItemView.prototype.render = function (landmark) {
   const landmarkContainer = document.createElement('div');
-  landmarkContainer.class = 'landmark';
+  landmarkContainer.classList.add('landmark');
 
   const landmarkName = this.createHeading(landmark.landmark_name);
   landmarkContainer.appendChild(landmarkName);
 
   const landmarkPic = this.createImage(landmark.clipart);
-  landmarkPic.appendChild(landmarkPic);
+  landmarkContainer.appendChild(landmarkPic);
 
   this.container.appendChild(landmarkContainer);
 };
 
-LandmarkGridItemView.prototype.createHeading = function (landarkName) {
+LandmarkGridItemView.prototype.createHeading = function (landmarkName) {
   const heading = document.createElement('h2');
   heading.textContent = landmarkName;
   return heading;

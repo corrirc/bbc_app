@@ -8,8 +8,12 @@ const LandmarkGridView = function (container) {
 LandmarkGridView.prototype.bindEvents = function () {
   PubSub.subscribe('Landmarks:data-loaded', (event) => {
     const menuItems = this.render(event.detail);
+    console.log(menuItems);
+    
     menuItems.forEach((menuItem) => {
       menuItem.addEventListener('click', (event) => {
+        console.dir(event);
+        
         const selectedLandmark = event.target;
         PubSub.publish('LandmarkGridItemView:landmark-selected', selectedLandmark);
       });
@@ -23,6 +27,9 @@ LandmarkGridView.prototype.render = function (landmarks) {
   landmarks.forEach((landmark) => {
     landmarkGridItemView.render(landmark)
   });
+
+  const landmarkItems = document.querySelectorAll('div.landmark');
+  return landmarkItems;
 };
 
 module.exports = LandmarkGridView;
