@@ -1,0 +1,31 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Set up:",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server:dev": "nodemon server/server.js",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corrirc/bbc_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corrirc/bbc_app/issues"
+  },
+  "homepage": "https://github.com/corrirc/bbc_app#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.1.4",
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
