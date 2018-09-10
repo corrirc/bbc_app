@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const landmarkGridView = new LandmarkGridView(landmarkContainer);
   landmarkGridView.bindEvents();
 
-  const landmarkView = new LandmarkView(landmarkContainer);
+  const landmarkViewContainer = document.querySelector('#landmark-info');
+  const landmarkView = new LandmarkView(landmarkViewContainer);
   landmarkView.bindEvents();
 
   const landmark = new Landmark();

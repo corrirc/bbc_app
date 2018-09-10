@@ -6,20 +6,23 @@ const LandmarkView = function(container) {
 
 LandmarkView.prototype.bindEvents = function() {
   PubSub.subscribe("LandmarkModel:landmark-selected", landmark => {
-    this.render(landmark.detail);  
+    this.render(landmark.detail);
   })
 }
 
-LandmarkView.prototype.render = function(landmark) {  
+LandmarkView.prototype.render = function(landmark) {
   this.container.innerHTML = '';
 
-  const landmarkName = document.createElement('h2');
-  landmarkName.textContent = landmark.landmark_name;  
+  const landmarkName = document.createElement('h1');
+  landmarkName.textContent = landmark.landmark_name;
   this.container.appendChild(landmarkName);
 
+  const imageContainer = document.createElement('div');
+  imageContainer.classList.add('center');
   const landmarkImage = document.createElement('img');
   landmarkImage.src = landmark.landmark_picture;
-  this.container.appendChild(landmarkImage);
+  imageContainer.appendChild(landmarkImage);
+  this.container.appendChild(imageContainer);
 
   const landmarkLocation = document.createElement('h3');
   landmarkLocation.textContent = `Location: ${landmark.landmark_location}`
@@ -40,6 +43,8 @@ LandmarkView.prototype.render = function(landmark) {
   const landmarkLink = document.createElement('a');
   landmarkLink.href = landmark.landmark_url;
   landmarkLink.textContent = 'Click for more info.'
+
+
   this.container.appendChild(landmarkLink);
 }
 
