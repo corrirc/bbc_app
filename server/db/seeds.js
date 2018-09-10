@@ -128,6 +128,24 @@ db.landmarks.insertMany([
     did_you_know_fact: "The United Kingdom does not have a whole city of temples, but everywhere you look there are ancient monuments and religious places of worship.",
     landmark_url: "https://www.tourismcambodia.com/attractions/angkor/angkor-wat.htm"
   },
+  {
+    landmark_name: "Hollywood Sign",
+    landmark_location: "United States of America",
+    landmark_picture: "/images/pictures/hollywood.jpg"
+    landmark_facts: "Built in 1923, the original sign was not meant to be a landmark, but an advertising billboard for houses being built, and was only supposed to be there for a year and a half.  Originally it said 'HOLLYWOODLAND' in 50 foot metal letters, lit by approximately 4,000 light bulbs that falshed.  The H was destroyed when it was hit by a car, and then the sign itself was almost torn down, but instead the city fixed the H and removed the LAND.",
+  // clipart: "/images/clipart/",
+    did_you_know_fact: "While the United Kingdom doesn't have a sign like Hollywood, lights and billboards are a part of some of our landmarks, such as Piccadilly Circus in London.",
+    landmark_url: "https://hollywoodsign.org/"
+  },
+  // {
+  //   landmark_name: "",
+  //   landmark_location: "",
+  //   landmark_picture:
+  //   landmark_facts:
+  //   clipart:
+  //   did_you_know_fact:
+  //   landmark_url:
+  // },
   // {
   //   landmark_name: "",
   //   landmark_location: "",
