@@ -106,11 +106,28 @@ db.landmarks.insertMany([
     landmark_location: "Italy",
     landmark_picture: "/images/pictures/colosseum.jpg",
     landmark_facts: "The Colosseum only took 8 years to build, using concrete and stone, and was completed around 80 AD. An amphitheatre is an ancient sports arena where gladiators used to fight.  The Colosseum was different to most Greek amphitheatres as they were usually built into the sides of hills, but the Colosseum stood all by itself in the middle of Rome.  Over the years, the Colosseum has been damaged by fires, earthquakes, wars, people stealing the bricks to use for other buildings, and even by plants. It is believed that that it is in places such as the ancient Colosseum that the event we now know as the Olympic Games was born.",
-    // clipart: "/images/clipart/"
+    // clipart: "/images/clipart/",
     did_you_know_fact: "Shakespear's Globe Theatre in London was built as a smaller version of the Colosseum, in the same round shape and with seating on different levels as the Colosseum once had.",
     landmark_url: "https://www.rome.info/colosseum/"
   },
-  //
+  {
+    landmark_name: "Christ the Redeemer",
+    landmark_location: "Rio de Janeiro",
+    landmark_picture: "/images/pictures/christ_redeemer.jpg",
+    landmark_facts: "Started in the 1920s, the Christ the Redeemer statue finally opened in October 1931.  His arms are spread, one reaching north and the other south, as if ready to welcome and hug everyone who visits. He stands about 38 metres tall, and his arms stretch 28 metres wide.",
+    // clipart: "/images/clipart/",
+    did_you_know_fact: "The United Kingdom does not have a statue of Christ as big as Christ the Redeemer, but it does have the Angel of the North statue in Northern England with its wings outstretched. It is believed to be the largest angel statue in the world.",
+    landmark_url: "https://www.britannica.com/topic/Christ-the-Redeemer"
+  },
+  {
+    landmark_name: "Angkor Wat",
+    landmark_location: "",
+    landmark_picture: "/images/pictures/colosseum.jpg",
+    landmark_facts:
+    clipart:
+    did_you_know_fact:
+    landmark_url:
+  },
   // {
   //   landmark_name: "",
   //   landmark_location: "",
