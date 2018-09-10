@@ -12,11 +12,11 @@ h1 {
 }
 
 img {
-
   height:200px;
   width: 200px;
   border-radius: 50px;
   padding: 10px;
+
 }
 
 p {
@@ -35,35 +35,31 @@ h2{
   color: indigo;
 }
 
-/* p {
-  font-family: 'PT Sans', sans-serif;
-  color: indigo;
+
+#landmark-info img{
+  border: solid #ffc107;
+  margin: 0 auto;
+  padding: 0;
+  height: 300px;
+  width: auto;
+}
+#landmark-info {
+  padding: 50px 10% 20% 10%;
+
 }
 
-nav {
-  display:block;
-}  */
-
-/* .landmarkgrid-container {
-  display: grid;
-  grid-template-areas:
-    'header header header header header header'
-    'menu main main main right right';
-  grid-gap: 5px;
-  background-color: cyan;
-  padding: 1px;
+#landmark-info a {
+  background-color: #4CAF50; /* Green */
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.header {
-  grid-area: header;
+.center {
+  text-align: center;
 }
-.landmark-menu {
-  grid-area: menu;
-  background-color: #ffc107;
-}
-.main {
-  grid-area: main;
-}
-.right {
-  grid-area: right;
-} */
