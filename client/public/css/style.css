@@ -1,0 +1,44 @@
+body {
+  background-color: cyan;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: indigo;
+  text-align: center;
+}
+
+p {
+  font-family: 'PT Sans', sans-serif;
+  color: indigo;
+}
+
+nav {
+  display:block;
+}
+
+.landmarkgrid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right';
+  grid-gap: 5px;
+  background-color: cyan;
+  padding: 1px;
+}
+
+.header {
+  grid-area: header;
+}
+.landmark-menu {
+  grid-area: menu;
+  background-color: #ffc107;
+}
+.main {
+  grid-area: main;
+}
+.right {
+  grid-area: right;
+}
