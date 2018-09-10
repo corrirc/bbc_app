@@ -11,7 +11,7 @@ Landmark.prototype.bindEvents = function() {
     const request = new Request(`${this.url}/${landmarkID}`);
     request
       .get()
-      .then(data => {
+      .then(data => {    
         PubSub.publish("LandmarkModel:landmark-selected", data[0]);
       })
   })

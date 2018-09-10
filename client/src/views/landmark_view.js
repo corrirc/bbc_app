@@ -6,6 +6,8 @@ const LandmarkView = function(container) {
 
 LandmarkView.prototype.bindEvents() = function() {
   PubSub.subscribe("LandmarkModel:landmark-selected", landmark => {
+    console.log('hello');
+    
     this.render(landmark);
   })
 }
