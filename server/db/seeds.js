@@ -18,16 +18,16 @@ db.landmarks.insertMany([
     landmark_facts: "Machu Picchu was found in 1911 when an explorer decided to find out if rumours about ancient Inca ruins were true.  It is made up of many buildings and pathways, but no one knows very much about who built it or why it was built.",
     clipart: "/images/clipart/machupicchu.jpeg",
     did_you_know_fact: "Ruins can be found all over the United Kingdom; an example of this is Scotland's Skara Brae, a village from prehistoric times.",
-    landmark_url "https://www.lonelyplanet.com/peru/machu-picchu"
+    landmark_url: "https://www.lonelyplanet.com/peru/machu-picchu"
   },
   {
     landmark_name: "CodeClan Glasgow",
     landmark_location: "Glasgow",
     // landmark_picture:  "/images/pictures/",
-    landmark_facts "Currently there are only the 2 CodeClan locations, the first is in Edinburgh at Castle Terrace.  CodeClan Glasgow is the second location, and it can be found in the Clockwork Building off Renfrew Street.",
+    landmark_facts: "Currently there are only the 2 CodeClan locations, the first is in Edinburgh at Castle Terrace.  CodeClan Glasgow is the second location, and it can be found in the Clockwork Building off Renfrew Street.",
     // clipart: ""
     did_you_know_fact:  "It is the first and only digital skills academy in Scotland that is accredited by SQA.",
-    landmark_url "https://codeclan.com/"
+    landmark_url: "https://codeclan.com/"
   },
   {
     landmark_name: "The Statue of Liberty",
@@ -44,7 +44,7 @@ db.landmarks.insertMany([
     landmark_picture:  "/images/pictures/Eiffel_Tower.jpg",
     landmark_facts: "Finished on the 31st of March 1889, after just over 2 years of construction, the Eiffel Tower was never meant to stand more than 20 years; it is still standing today as it has been used as antennas and transmitters.  For over 40 years, it was the tallest man-made structure in the world, standing at just over 320 metres tall.",
     clipart: "/images/clipart/eiffle.jpeg",
-    did_you_know_fact  "A similar looking tower can be seen in Blackpool England, as the mayor of the local area was so impressed when he saw it at the World's Fair in 1889; Las Vegas in America and an amusement park in China also have their own versions of the Eiffel Tower.",
+    did_you_know_fact:  "A similar looking tower can be seen in Blackpool England, as the mayor of the local area was so impressed when he saw it at the World's Fair in 1889; Las Vegas in America and an amusement park in China also have their own versions of the Eiffel Tower.",
     landmark_url: "https://www.toureiffel.paris/en"
   },
   {
@@ -53,7 +53,7 @@ db.landmarks.insertMany([
     landmark_picture:  "/images/pictures/pisa.jpg",
     landmark_facts: "The Leaning Tower of Pisa was never meant to lean when it was started in August of 1173; it is like this as the ground is too soft and it wasn't well planned.  It took over 300 years to build, because wars kept stopping construction, and it only started to lean when the second floor was added. Two times, first in 1990 and again in 2008, attempts have been made to stop the tower from tipping over further and while it isn't moving right now it could again in the future.",
     clipart: "/images/clipart/pisa.jpeg",
-    did_you_know_fact "The Leaning Tower of Pisa is not the only building in the world to be leaning; a number of churches in the United Kingdom have similar tilts, including the Temple Church in Bristol, St Nicholas' Church in Gloucester, St James' Church in Dry Doddington, and Glasgow even has a leaning fountain!",
+    did_you_know_fact: "The Leaning Tower of Pisa is not the only building in the world to be leaning; a number of churches in the United Kingdom have similar tilts, including the Temple Church in Bristol, St Nicholas' Church in Gloucester, St James' Church in Dry Doddington, and Glasgow even has a leaning fountain!",
     landmark_url: "http://www.towerofpisa.org/"
   },
   {
@@ -81,11 +81,11 @@ db.landmarks.insertMany([
     landmark_facts: "Built for similar reasons as the Taj Mahal, the Great Pyramid of Giza contains 3 burial chambers, the main and highest one was for the Pharaoh Khufu. It took about 20 years to build and needed about 2.3 million stone blocks.  Of the pyramids in Giza the Pyramid of Khufu is the biggest and the oldest. Interestingly, it is the mortar between the bricks that is stronger than the bricks themselves and even with testing no one can figure out how to remake it!?",
     clipart: "/images/clipart/pyramids.jpeg",
     did_you_know_fact: "If you look around the United Kingdom, you can see lots of really old things built out of stone; the most popular is dry stone walls; they don't use any mortar in between the stones and can last hundreds of years sometimes!",
-    landmark_url "https://www.nationalgeographic.com/archaeology-and-history/archaeology/giza-pyramids/"
+    landmark_url: "https://www.nationalgeographic.com/archaeology-and-history/archaeology/giza-pyramids/"
   },
   {
     landmark_name: "Moai Statues",
-    landmark_location"Easter Island",
+    landmark_location: "Easter Island",
     landmark_picture: "/images/pictures/moai1.jpg",
     landmark_facts: "Unlike some of the other landmarks, the Moai statues are not buildings.  Instead of going inside, you have to go out to see them, on an island in the Pacific Ocean.  They are prehistoric carved figures that range in size from just under 2 metres to about 10 metres tall; although one was found lying down that would have been over 20 metres tall!  There are over 880 known statues almost all positioned along the shores and facing in across the land.",
     clipart: "/images/clipart/moai.jpeg",
@@ -98,17 +98,17 @@ db.landmarks.insertMany([
     landmark_picture: "/images/pictures/Parthenon3.jpg",
     landmark_facts: "Built around 450 BC out of limestone, the Parthenon was a temple to worship the Greek Goddess Athena.  It is believed that once a large gold statue of the goddess once stood inside the temple, but that it was either lost or destroyed by the Romans.  Although it was built as a temple, in later times it was also used as a church and a mosque.",
     clipart: "/images/clipart/parthenon.jpeg",
-    did_you_know_fact "The National Monument of Scotland, in Edinburgh, started in 1826, was supposed to look like the Parthenon, however only the base and 12 columns were ever completed and then the project was abandoned.",
+    did_you_know_fact: "The National Monument of Scotland, in Edinburgh, started in 1826, was supposed to look like the Parthenon, however only the base and 12 columns were ever completed and then the project was abandoned.",
     landmark_url: "https://whc.unesco.org/en/list/404"
   },
   {
     landmark_name: "The Colosseum",
     landmark_location: "Italy",
     landmark_picture: "/images/pictures/colosseum.jpg",
-    landmark_facts: "The Colosseum only took 8 years to build, using concrete and stone, and was completed around 80 AD. An amphitheatre is an ancient sports arena where gladiators used to fight.  The Colosseum was different to most Greek amphitheatres as they were usually built into the sides of hills, but the Colosseum stood all by itself in the middle of Rome.  Over the years, the Colosseum has been damaged by fires, earthquakes, wars, people stealing the bricks to use for other buildings, and even by plants. It is believed that that it is in places such as the ancient Colosseum that the event we now know as the Olympic Games was born."
+    landmark_facts: "The Colosseum only took 8 years to build, using concrete and stone, and was completed around 80 AD. An amphitheatre is an ancient sports arena where gladiators used to fight.  The Colosseum was different to most Greek amphitheatres as they were usually built into the sides of hills, but the Colosseum stood all by itself in the middle of Rome.  Over the years, the Colosseum has been damaged by fires, earthquakes, wars, people stealing the bricks to use for other buildings, and even by plants. It is believed that that it is in places such as the ancient Colosseum that the event we now know as the Olympic Games was born.",
     // clipart: "/images/clipart/"
-    did_you_know_fact: "Shakespear's Globe Theatre in London was built as a smaller version of the Colosseum, in the same round shape and with seating on different levels as the Colosseum once had."
-    landmark_url "https://www.rome.info/colosseum/"
+    did_you_know_fact: "Shakespear's Globe Theatre in London was built as a smaller version of the Colosseum, in the same round shape and with seating on different levels as the Colosseum once had.",
+    landmark_url: "https://www.rome.info/colosseum/"
   },
   //
   // {
