@@ -5,6 +5,8 @@ const LandmarkGridItemView = function (container) {
 LandmarkGridItemView.prototype.render = function (landmark) {
   const landmarkContainer = document.createElement('div');
   landmarkContainer.classList.add('landmark');
+  landmarkContainer.id = landmark._id;
+
 
   const landmarkName = this.createHeading(landmark.landmark_name);
   landmarkContainer.appendChild(landmarkName);
