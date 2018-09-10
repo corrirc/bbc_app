@@ -23,9 +23,9 @@ db.landmarks.insertMany([
   {
     landmark_name: "CodeClan Glasgow",
     landmark_location: "Glasgow",
-    // landmark_picture:  "/images/pictures/",
+    landmark_picture:  "/images/pictures/codeclandglasgow.png",
     landmark_facts: "Currently there are only the 2 CodeClan locations, the first is in Edinburgh at Castle Terrace.  CodeClan Glasgow is the second location, and it can be found in the Clockwork Building off Renfrew Street.",
-    // clipart: ""
+    clipart: "/images/clipart/cc.png",
     did_you_know_fact:  "It is the first and only digital skills academy in Scotland that is accredited by SQA.",
     landmark_url: "https://codeclan.com/"
   },
@@ -138,8 +138,8 @@ db.landmarks.insertMany([
     landmark_url: "https://hollywoodsign.org/"
   },
   // {
-  //   landmark_name: "",
-  //   landmark_location: "",
+  //   landmark_name: "Stonehenge",
+  //   landmark_location: "United Kingdom",
   //   landmark_picture:
   //   landmark_facts:
   //   clipart:
