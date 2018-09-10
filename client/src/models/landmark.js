@@ -6,7 +6,7 @@ const Landmark = function() {
 }
 
 Landmark.prototype.bindEvents = function() {
-  PubSub.subscribe("LandmarkGridItemView:landmark-selected", event => {
+  PubSub.subscribe("LandmarkGridItemView:landmark-selected", event => { 
     const landmarkID = event.detail;
     const request = new Request(`${this.url}/${landmarkID}`);
     request
