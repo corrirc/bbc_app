@@ -43,7 +43,7 @@ db.landmarks.insertMany([
     landmark_location: "France",
     landmark_picture:  "/images/pictures/Eiffel_Tower.jpg",
     landmark_facts: "Finished on the 31st of March 1889, after just over 2 years of construction, the Eiffel Tower was never meant to stand more than 20 years; it is still standing today as it has been used as antennas and transmitters.  For over 40 years, it was the tallest man-made structure in the world, standing at just over 320 metres tall.",
-    clipart: "/images/clipart/eiffle.jpeg",
+    clipart: "/images/clipart/eiffel.jpeg",
     did_you_know_fact:  "A similar looking tower can be seen in Blackpool England, as the mayor of the local area was so impressed when he saw it at the World's Fair in 1889; Las Vegas in America and an amusement park in China also have their own versions of the Eiffel Tower.",
     landmark_url: "https://www.toureiffel.paris/en"
   },
@@ -106,11 +106,28 @@ db.landmarks.insertMany([
     landmark_location: "Italy",
     landmark_picture: "/images/pictures/colosseum.jpg",
     landmark_facts: "The Colosseum only took 8 years to build, using concrete and stone, and was completed around 80 AD. An amphitheatre is an ancient sports arena where gladiators used to fight.  The Colosseum was different to most Greek amphitheatres as they were usually built into the sides of hills, but the Colosseum stood all by itself in the middle of Rome.  Over the years, the Colosseum has been damaged by fires, earthquakes, wars, people stealing the bricks to use for other buildings, and even by plants. It is believed that that it is in places such as the ancient Colosseum that the event we now know as the Olympic Games was born.",
-    // clipart: "/images/clipart/"
+    // clipart: "/images/clipart/",
     did_you_know_fact: "Shakespear's Globe Theatre in London was built as a smaller version of the Colosseum, in the same round shape and with seating on different levels as the Colosseum once had.",
     landmark_url: "https://www.rome.info/colosseum/"
   },
-  //
+  {
+    landmark_name: "Christ the Redeemer",
+    landmark_location: "Rio de Janeiro",
+    landmark_picture: "/images/pictures/christ_redeemer.jpg",
+    landmark_facts: "Started in the 1920s, the Christ the Redeemer statue finally opened in October 1931.  His arms are spread, one reaching north and the other south, as if ready to welcome and hug everyone who visits. He stands about 38 metres tall, and his arms stretch 28 metres wide.",
+    // clipart: "/images/clipart/",
+    did_you_know_fact: "The United Kingdom does not have a statue of Christ as big as Christ the Redeemer, but it does have the Angel of the North statue in Northern England with its wings outstretched. It is believed to be the largest angel statue in the world.",
+    landmark_url: "https://www.britannica.com/topic/Christ-the-Redeemer"
+  },
+  {
+    landmark_name: "Angkor Wat",
+    landmark_location: "Cambodia",
+    landmark_picture: "/images/pictures/angkor.jpg",
+    landmark_facts: "Angkor Wat is the largest religious landmark in the world.  At 1,626,000 square metres, it was built originally as a Hindu temple for the god Vishnu.  The name actually translates to 'City of Temples'.",
+    // clipart: "/images/clipart/",
+    did_you_know_fact: "The United Kingdom does not have a whole city of temples, but everywhere you look there are ancient monuments and religious places of worship.",
+    landmark_url: "https://www.tourismcambodia.com/attractions/angkor/angkor-wat.htm"
+  },
   // {
   //   landmark_name: "",
   //   landmark_location: "",
