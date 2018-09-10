@@ -34,16 +34,18 @@ LandmarkGridItemView.prototype.createImage = function (picture) {
 
 LandmarkGridItemView.prototype.createToggle = function (status) {
   const toggleDiv = document.createElement('div')
-  const label = document.createElement('label');
-  label.classList.add('switch');
-  label.textContent = "I've Been There"
-  toggleDiv.appendChild(label);
+  const beenThere = document.createElement('label');
+  beenThere.textContent = "I've Been There"
+  toggleDiv.appendChild(beenThere);
+  const switchLabel = document.createElement('label');
+  switchLabel.classList.add('switch');
+  toggleDiv.appendChild(switchLabel);
   const inputType = document.createElement('input');
   inputType.type = "checkbox";
-  label.appendChild(inputType);
+  switchLabel.appendChild(inputType);
   const slider = document.createElement('span');
   slider.classList.add('slider');
-  label.appendChild(slider);
+  switchLabel.appendChild(slider);
   return toggleDiv;
 };
 
