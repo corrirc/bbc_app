@@ -131,16 +131,43 @@ db.landmarks.insertMany([
   {
     landmark_name: "Hollywood Sign",
     landmark_location: "United States of America",
-    landmark_picture: "/images/pictures/hollywood.jpg"
+    landmark_picture: "/images/pictures/hollywood.jpg",
     landmark_facts: "Built in 1923, the original sign was not meant to be a landmark, but an advertising billboard for houses being built, and was only supposed to be there for a year and a half.  Originally it said 'HOLLYWOODLAND' in 50 foot metal letters, lit by approximately 4,000 light bulbs that falshed.  The H was destroyed when it was hit by a car, and then the sign itself was almost torn down, but instead the city fixed the H and removed the LAND.",
   // clipart: "/images/clipart/",
     did_you_know_fact: "While the United Kingdom doesn't have a sign like Hollywood, lights and billboards are a part of some of our landmarks, such as Piccadilly Circus in London.",
     landmark_url: "https://hollywoodsign.org/"
   },
+  {
+    landmark_name: "Stonehenge",
+    landmark_location: "United Kingdom",
+    landmark_picture: "/images/pictures/stonehenge.jpeg",
+    landmark_facts: "The giant ring of standing stones, is one of the most famous prehistoric stone landmarks in the world.  Built over 4,000 years ago, we are still unsure of why it was built. Scientists have found bones buried around the landmark which means it might have been a burial ground; but they also noticed how well it lines up with the midsummer sunrise and midwinter sunset so think it might have been used as some kind of calendar or place to study the sun and the moon. What is really interesting is that the stones have been brought from all over the U.K. and are not just from that area. Hundreds of stone circles are located all around the United Kingdom; but there is also a Woodhenge (near Stonehenge) and a Seahenge in Norfolk which are both made from wooden logs.",
+  // clipart: "/images/clipart/",
+    did_you_know_fact: "Do you know of any other great circles? Maybe you live near one or maybe you see important circles somewhere else (like roundabouts or as part of your favourite game).",
+    landmark_url: "https://www.natgeokids.com/uk/discover/history/general-history/stonehenge-facts/"
+  },
   // {
-  //   landmark_name: "Stonehenge",
-  //   landmark_location: "United Kingdom",
-  //   landmark_picture:
+  //   landmark_name: "Sphinx",
+  //   landmark_location: "Egypt",
+  //   landmark_picture: "/images/pictures/sphinx.jpg",
+  //   landmark_facts:
+  //   clipart: "/images/clipart/",
+  //   did_you_know_fact:
+  //   landmark_url:
+  // },
+  // {
+  //   landmark_name: "Forbidden City",
+  //   landmark_location: "China",
+  //   landmark_picture: "/images/pictures/forbiddencity.jpeg",
+  //   landmark_facts:
+  //   clipart:
+  //   did_you_know_fact:
+  //   landmark_url:
+  // },
+  // {
+  //   landmark_name: "CN Tower",
+  //   landmark_location: "Canada",
+  //   landmark_picture: "/images/pictures/cntower.jpg",
   //   landmark_facts:
   //   clipart:
   //   did_you_know_fact:
