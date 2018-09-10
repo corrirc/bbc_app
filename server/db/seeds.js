@@ -112,7 +112,7 @@ db.landmarks.insertMany([
   },
   {
     landmark_name: "Christ the Redeemer",
-    landmark_location: "Rio de Janeiro",
+    landmark_location: "Brazil",
     landmark_picture: "/images/pictures/christ_redeemer.jpg",
     landmark_facts: "Started in the 1920s, the Christ the Redeemer statue finally opened in October 1931.  His arms are spread, one reaching north and the other south, as if ready to welcome and hug everyone who visits. He stands about 38 metres tall, and his arms stretch 28 metres wide.",
     // clipart: "/images/clipart/",
