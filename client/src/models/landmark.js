@@ -16,10 +16,9 @@ Landmark.prototype.bindEvents = function() {
       })
   })
   PubSub.subscribe('landmarkGridItemView:toggled', (event) => {
-    console.log(event.detail);
     const toggleId = event.detail.id;
     const payload = event.detail.status;
-    request = new Request(`${this.url}/${toggleId}`);
+    request = new Request(`${this.url}`);
     request
     .update(toggleId, payload);
   })

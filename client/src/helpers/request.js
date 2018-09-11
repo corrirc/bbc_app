@@ -9,9 +9,13 @@ Request.prototype.get = function(){
 
 
 Request.prototype.update = function(id, status){
+  const body = {
+    status: status
+  }
+
   return fetch(`${this.url}/${id}`, {
     method: 'PUT',
-    body: JSON.stringify(status),
+    body: JSON.stringify(body),
     headers: { 'Content-Type': 'application/json'}
   })
 };
