@@ -9,7 +9,8 @@ LandmarkGridView.prototype.bindEvents = function () {
   PubSub.subscribe('Landmarks:data-loaded', (event) => {
     const menuItems = this.render(event.detail);    
     menuItems.forEach((menuItem) => {
-      menuItem.addEventListener('click', (event) => {
+      const image = menuItem.getElementsByTagName('img')[0];
+      image.addEventListener('click', (event) => {
         const landmarkID = event.target.parentNode.id;
         PubSub.publish('LandmarkGridItemView:landmark-selected', landmarkID);
       });
