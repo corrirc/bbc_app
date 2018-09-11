@@ -1,4 +1,5 @@
 const PubSub = require('../helpers/pub_sub');
+const mapWrapper = require('../helpers/map_wrapper');
 
 const LandmarkView = function(container) {
   this.container = container;
@@ -18,10 +19,12 @@ LandmarkView.prototype.render = function(landmark) {
   this.container.appendChild(landmarkName);
 
   const imageContainer = document.createElement('div');
+  const map = mapWrapper(landmark.landmark_name);
   imageContainer.classList.add('center');
   const landmarkImage = document.createElement('img');
   landmarkImage.src = landmark.landmark_picture;
   imageContainer.appendChild(landmarkImage);
+  imageContainer.appendChild(map);
   this.container.appendChild(imageContainer);
 
   const landmarkLocation = document.createElement('h3');
