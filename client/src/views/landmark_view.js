@@ -19,14 +19,26 @@ LandmarkView.prototype.render = function(landmark) {
   landmarkName.textContent = landmark.landmark_name;
   this.container.appendChild(landmarkName);
 
+  // Landmark Image and Map
   const imageContainer = document.createElement('div');
-  const map = mapWrapper(landmark.landmark_name);
   imageContainer.classList.add('center');
+
+  // Image
   const landmarkImage = document.createElement('img');
   landmarkImage.src = landmark.landmark_picture;
+
+  // Map
+  const map = mapWrapper(landmark.landmark_name);
+  const mapContainer = document.createElement('div');
+  mapContainer.id = "map-container"
+
+  // Append containers
   imageContainer.appendChild(landmarkImage);
-  imageContainer.appendChild(map);
+  mapContainer.appendChild(map);
+  imageContainer.appendChild(mapContainer);
   this.container.appendChild(imageContainer);
+
+
 
   const landmarkLocation = document.createElement('h3');
   landmarkLocation.textContent = `Location: ${landmark.landmark_location}`
