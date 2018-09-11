@@ -146,21 +146,21 @@ db.landmarks.insertMany([
     did_you_know_fact: "Do you know of any other great circles? Maybe you live near one or maybe you see important circles somewhere else (like roundabouts or as part of your favourite game).",
     landmark_url: "https://www.natgeokids.com/uk/discover/history/general-history/stonehenge-facts/"
   },
-  // {
-  //   landmark_name: "Sphinx",
-  //   landmark_location: "Egypt",
-  //   landmark_picture: "/images/pictures/sphinx.jpg",
-  //   landmark_facts:
-  //   clipart: "/images/clipart/",
-  //   did_you_know_fact:
-  //   landmark_url:
-  // },
+  {
+    landmark_name: "Sphinx",
+    landmark_location: "Egypt",
+    landmark_picture: "/images/pictures/sphinx.jpg",
+    landmark_facts: "Built more than 4,500 years ago, the Sphinx is the biggest, oldest statues in the world, standing 20 metres tall.  A sphinx is a creature with a human head and lion-like body.  In Egypt, it guarded many important places, including the Great Pyramid. It is surprising that anything it left of the Sphinx as sand, water, wind, and Mother Nature have slowly damaged this ancient landmark, and no way has been found to protect it or stop the damage that continues to happen.",
+    // clipart: "/images/clipart/",
+    did_you_know_fact: "The United Kingdom has many mythical creatures, from unicorns and kelpies to trolls, fairies, giants and witches, or even a Loch Ness Monster!",
+    landmark_url: "https://www.history.com/topics/ancient-egypt/the-sphinx"
+  },
   // {
   //   landmark_name: "Forbidden City",
   //   landmark_location: "China",
   //   landmark_picture: "/images/pictures/forbiddencity.jpeg",
   //   landmark_facts:
-  //   clipart:
+  //   clipart: "/images/clipart/",
   //   did_you_know_fact:
   //   landmark_url:
   // },
@@ -169,18 +169,18 @@ db.landmarks.insertMany([
   //   landmark_location: "Canada",
   //   landmark_picture: "/images/pictures/cntower.jpg",
   //   landmark_facts:
-  //   clipart:
+  //   clipart: "/images/clipart/",
   //   did_you_know_fact:
   //   landmark_url:
   // },
   // {
   //   landmark_name: "",
   //   landmark_location: "",
-  //   landmark_picture:
-  //   landmark_facts:
-  //   clipart:
-  //   did_you_know_fact:
-  //   landmark_url:
+  //   landmark_picture: "/images/pictures/",
+  //   landmark_facts: "",
+  //   clipart: "/images/clipart/",
+  //   did_you_know_fact: "",
+  //   landmark_url: ""
   // },
 
 ])
