@@ -155,23 +155,23 @@ db.landmarks.insertMany([
     did_you_know_fact: "The United Kingdom has many mythical creatures, from unicorns and kelpies to trolls, fairies, giants and witches, or even a Loch Ness Monster!",
     landmark_url: "https://www.history.com/topics/ancient-egypt/the-sphinx"
   },
-  // {
-  //   landmark_name: "Forbidden City",
-  //   landmark_location: "China",
-  //   landmark_picture: "/images/pictures/forbiddencity.jpeg",
-  //   landmark_facts:
-  //   clipart: "/images/clipart/",
-  //   did_you_know_fact:
-  //   landmark_url:
-  // },
+  {
+    landmark_name: "Forbidden City",
+    landmark_location: "China",
+    landmark_picture: "/images/pictures/forbiddencity.jpeg",
+    landmark_facts: "The forbidden city is HUMONGOUS! But it's not really a city, it is a palace complex and fortress in the middle of Beijing City where the Emperor's of China used to live. It took around 500 years to build and has about 980 buildings with almost 9,000 rooms!",
+    // clipart: "/images/clipart/",
+    did_you_know_fact: "There are many palaces around the United Kingdom, including Buckingham Palace in London and Holyrood Palace in Edinburgh, which are both still lived in by the Royal Family.",
+    landmark_url: "https://www.travelchinaguide.com/cityguides/beijing/forbidden.htm"
+  },
   // {
   //   landmark_name: "CN Tower",
   //   landmark_location: "Canada",
   //   landmark_picture: "/images/pictures/cntower.jpg",
-  //   landmark_facts:
+  //   landmark_facts: "",
   //   clipart: "/images/clipart/",
-  //   did_you_know_fact:
-  //   landmark_url:
+  //   did_you_know_fact: "",
+  //   landmark_url: ""
   // },
   // {
   //   landmark_name: "",
