@@ -4,9 +4,21 @@ body {
   color: indigo;
 }
 
+#header {
+  align-items: center;
+  margin-top: -27px;
+  height: 350px;
+  width: 1200px;
+  background-color: white;
+  background-image: center;
+  background-image: url("/images/landmark.jpg");
+  background-repeat: no-repeat;
+}
+
+
 h1 {
   font-family: 'Poppins', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   color: indigo;
   text-align: center;
 }
@@ -15,7 +27,8 @@ img {
   height:200px;
   width: 200px;
   border-radius: 50px;
-  padding: 10px;
+  margin: 10px;
+  border: solid #ffc107;
 }
 
 p {
@@ -26,7 +39,6 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 h2{
@@ -43,9 +55,19 @@ h2{
   height: 300px;
   width: auto;
 }
+
 #landmark-info {
   padding: 50px 10% 20% 10%;
+}
 
+#map-container {
+  display: inline-block;
+  height: 300px;
+  margin-left: 10px;
+  border-radius: 50px;
+  border: solid #ffc107;
+  overflow: hidden;
+  width: 300px;
 }
 
 #landmark-info a {
