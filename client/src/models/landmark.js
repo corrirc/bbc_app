@@ -6,14 +6,22 @@ const Landmark = function() {
 }
 
 Landmark.prototype.bindEvents = function() {
-  PubSub.subscribe("LandmarkGridItemView:landmark-selected", event => { 
+  PubSub.subscribe("LandmarkGridItemView:landmark-selected", event => {
     const landmarkID = event.detail;
-    const request = new Request(`${this.url}/${landmarkID}`);
+    let request = new Request(`${this.url}/${landmarkID}`);
     request
       .get()
-      .then(data => {    
+      .then(data => {
         PubSub.publish("LandmarkModel:landmark-selected", data[0]);
       })
+  })
+  PubSub.subscribe('landmarkGridItemView:toggled', (event) => {
+    console.log(event.detail);
+    const toggleId = event.detail.id;
+    const payload = event.detail.status;
+    request = new Request(`${this.url}/${toggleId}`);
+    request
+    .update(toggleId, payload);
   })
 }
 
@@ -26,5 +34,6 @@ Landmark.prototype.getData = function() {
     })
     .catch(console.error);
 }
+
 
 module.exports = Landmark;

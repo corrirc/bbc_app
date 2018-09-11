@@ -32,11 +32,26 @@ const createRouter = function (collection) {
       });
   });
 
+  // UPDATE
+  router.put('/:id', (req, res) => {
+    const id = req.params.id;
+    collection
+    .updateOne({ _id: ObjectID(id)}, { $set: {been_there: req.body.status} })
+    .then(() => {
+      collection
+      .find()
+      .toArray()
+      .then((docs) => {
+        res.json(docs)
+      });
+    });
+  })
+
   return router;
 };
 
 const returnAll = function(res, collection) {
-  
+
 }
 
 module.exports = createRouter;
