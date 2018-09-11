@@ -11,7 +11,7 @@ db.landmarks.insertMany([
     clipart: "/images/clipart/greatwall.jpeg",
     did_you_know_fact: "There is a famous wall in the United Kingdom, called Hadrian's Wall; it however is only 73 miles long.",
     landmark_url: "https://www.chinahighlights.com/greatwall/",
-    been_there: false
+    been_there: true
   },
   {
     landmark_name: "Machu Picchu",
