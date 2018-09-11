@@ -169,7 +169,7 @@ db.landmarks.insertMany([
     landmark_location: "Canada",
     landmark_picture: "/images/pictures/cntower.jpg",
     landmark_facts: "Construction started in 1973 and it opened in 1976 as the World's tallest free-standing structure at just over 550 metres tall, with no wires helping to hold it up.  It held that record for 30 years, until 2007 when structures in other parts of the world were built taller.  The tower was by the Canadian National Railway and which is where the CN part of its name came from (which is actually the shortened name, its full name is Canada's National Tower). Today it is not just a place to visit, but like the Eiffel Tower is an electronic transmitter for phone and tv signals.",
-    clipart: "/images/clipart/",
+    // clipart: "/images/clipart/",
     did_you_know_fact: "The tallest tower in the UK is the Emley Moor transmitter tower in Yorkshire standing at just over 330 metres tall.  Do you know of any other towers?",
     landmark_url: "https://www.cntower.ca/intro.html"
   },
