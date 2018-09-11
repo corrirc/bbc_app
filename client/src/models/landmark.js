@@ -3,7 +3,6 @@ const Request = require('../helpers/request');
 
 const Landmark = function() {
   this.url = 'http://localhost:3000/api/landmarks';
-  this.landmarks = null;
 }
 
 Landmark.prototype.bindEvents = function() {
