@@ -16,7 +16,6 @@ img {
   width: 200px;
   border-radius: 50px;
   padding: 10px;
-
 }
 
 p {
@@ -27,6 +26,7 @@ p {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 h2{
@@ -66,8 +66,9 @@ h2{
 
 .switch {
   position: relative;
-  width: 30px;
-  height: 20px;
+  display: inline-block;
+  width: 45px;
+  height: 24px;
 }
 
 .switch input {
@@ -84,6 +85,7 @@ h2{
   background-color: #ccc;
   transition: .4s;
   border-radius: 34px;
+
 }
 
 .slider:before {
@@ -97,17 +99,15 @@ h2{
   transition: .4s;
   border-radius: 50%;
 }
-/*
+
 input:checked + .slider {
   background-color: #4CAF50;
 }
 
 input:focus + .slider {
   box-shadow: 0 0 1px #4CAF50;
-} */
+}
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  transform: translateX(20px);
 }

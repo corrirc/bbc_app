@@ -33,9 +33,10 @@ LandmarkGridItemView.prototype.createImage = function (picture) {
 };
 
 LandmarkGridItemView.prototype.createToggle = function (status) {
-  const toggleDiv = document.createElement('div')
+  const toggleDiv = document.createElement('div');
+  toggleDiv.classList.add('toggle')
   const beenThere = document.createElement('label');
-  beenThere.textContent = "I've Been There"
+  beenThere.textContent = "I've Been There";
   toggleDiv.appendChild(beenThere);
   const switchLabel = document.createElement('label');
   switchLabel.classList.add('switch');
