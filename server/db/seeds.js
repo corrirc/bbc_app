@@ -38,7 +38,7 @@ db.landmarks.insertMany([
     continent: "North America",
     landmark_picture:  "/images/pictures/statue-of-liberty.jpg",
     landmark_facts: "The Statue of Liberty was originally a gift from the French; to remember how France and the United States of American worked together during the Amerian Revolution.  She is made out of copper, but her torch was recovered in 1986 with thin 24 carat gold sheets.  Gustave Eiffel, who is famous for another French landmark, helped to work on Lady Liberty's inner metal skeleton.",
-    clipart: "/images/clipart/liberty.jpg",
+    clipart: "/images/clipart/liberty.jpeg",
     did_you_know_fact: "Statues are very popular and can be seen all over the United Kingdom; from Winston Churchill to Boudica, to Glasgow's own cone-wearing Duke of Wellington.",
     landmark_url: "https://www.nps.gov/stli/index.htm"
   },
@@ -88,7 +88,7 @@ db.landmarks.insertMany([
     continent: "Africa",
     landmark_picture: "/images/pictures/pyramid.jpeg",
     landmark_facts: "Built for similar reasons as the Taj Mahal, the Great Pyramid of Giza contains 3 burial chambers, the main and highest one was for the Pharaoh Khufu. It took about 20 years to build and needed about 2.3 million stone blocks.  Of the pyramids in Giza the Pyramid of Khufu is the biggest and the oldest. Interestingly, it is the mortar between the bricks that is stronger than the bricks themselves and even with testing no one can figure out how to remake it!?",
-    clipart: "/images/clipart/pyramids.jpeg",
+    clipart: "/images/clipart/pyramids.JPG",
     did_you_know_fact: "If you look around the United Kingdom, you can see lots of really old things built out of stone; the most popular is dry stone walls; they don't use any mortar in between the stones and can last hundreds of years sometimes!",
     landmark_url: "https://www.nationalgeographic.com/archaeology-and-history/archaeology/giza-pyramids/"
   },
@@ -108,7 +108,7 @@ db.landmarks.insertMany([
     continent: "Europe",
     landmark_picture: "/images/pictures/Parthenon3.jpg",
     landmark_facts: "Built around 450 BC out of limestone, the Parthenon was a temple to worship the Greek Goddess Athena.  It is believed that once a large gold statue of the goddess once stood inside the temple, but that it was either lost or destroyed by the Romans.  Although it was built as a temple, in later times it was also used as a church and a mosque.",
-    clipart: "/images/clipart/parthenon.jpeg",
+    clipart: "/images/clipart/parthenon.JPG",
     did_you_know_fact: "The National Monument of Scotland, in Edinburgh, started in 1826, was supposed to look like the Parthenon, however only the base and 12 columns were ever completed and then the project was abandoned.",
     landmark_url: "https://whc.unesco.org/en/list/404"
   },
@@ -118,7 +118,7 @@ db.landmarks.insertMany([
     continent: "Europe",
     landmark_picture: "/images/pictures/colosseum.jpg",
     landmark_facts: "The Colosseum only took 8 years to build, using concrete and stone, and was completed around 80 AD. An amphitheatre is an ancient sports arena where gladiators used to fight.  The Colosseum was different to most Greek amphitheatres as they were usually built into the sides of hills, but the Colosseum stood all by itself in the middle of Rome.  Over the years, the Colosseum has been damaged by fires, earthquakes, wars, people stealing the bricks to use for other buildings, and even by plants. It is believed that that it is in places such as the ancient Colosseum that the event we now know as the Olympic Games was born.",
-    // clipart: "/images/clipart/",
+    clipart: "/images/clipart/colosseum.jpeg",
     did_you_know_fact: "Shakespear's Globe Theatre in London was built as a smaller version of the Colosseum, in the same round shape and with seating on different levels as the Colosseum once had.",
     landmark_url: "https://www.rome.info/colosseum/"
   },
@@ -128,7 +128,7 @@ db.landmarks.insertMany([
     continent: "South America",
     landmark_picture: "/images/pictures/christ_redeemer.jpg",
     landmark_facts: "Started in the 1920s, the Christ the Redeemer statue finally opened in October 1931.  His arms are spread, one reaching north and the other south, as if ready to welcome and hug everyone who visits. He stands about 38 metres tall, and his arms stretch 28 metres wide.",
-    // clipart: "/images/clipart/",
+    clipart: "/images/clipart/christ.jpeg",
     did_you_know_fact: "The United Kingdom does not have a statue of Christ as big as Christ the Redeemer, but it does have the Angel of the North statue in Northern England with its wings outstretched. It is believed to be the largest angel statue in the world.",
     landmark_url: "https://www.britannica.com/topic/Christ-the-Redeemer"
   },
@@ -138,7 +138,7 @@ db.landmarks.insertMany([
     continent: "Asia",
     landmark_picture: "/images/pictures/angkor.jpg",
     landmark_facts: "Angkor Wat is the largest religious landmark in the world.  At 1,626,000 square metres, it was built originally as a Hindu temple for the god Vishnu.  The name actually translates to 'City of Temples'.",
-    // clipart: "/images/clipart/",
+    clipart: "/images/clipart/angkorwat.jpeg",
     did_you_know_fact: "The United Kingdom does not have a whole city of temples, but everywhere you look there are ancient monuments and religious places of worship.",
     landmark_url: "https://www.tourismcambodia.com/attractions/angkor/angkor-wat.htm"
   },
@@ -148,7 +148,7 @@ db.landmarks.insertMany([
     continent: "North America",
     landmark_picture: "/images/pictures/hollywood.jpg",
     landmark_facts: "Built in 1923, the original sign was not meant to be a landmark, but an advertising billboard for houses being built, and was only supposed to be there for a year and a half.  Originally it said 'HOLLYWOODLAND' in 50 foot metal letters, lit by approximately 4,000 light bulbs that falshed.  The H was destroyed when it was hit by a car, and then the sign itself was almost torn down, but instead the city fixed the H and removed the LAND.",
-  // clipart: "/images/clipart/",
+    clipart: "/images/clipart/hollywood.JPG",
     did_you_know_fact: "While the United Kingdom doesn't have a sign like Hollywood, lights and billboards are a part of some of our landmarks, such as Piccadilly Circus in London.",
     landmark_url: "https://hollywoodsign.org/"
   },
@@ -188,7 +188,7 @@ db.landmarks.insertMany([
     continent: "North America",
     landmark_picture: "/images/pictures/cntower.jpg",
     landmark_facts: "Construction started in 1973 and it opened in 1976 as the World's tallest free-standing structure at just over 550 metres tall, with no wires helping to hold it up.  It held that record for 30 years, until 2007 when structures in other parts of the world were built taller.  The tower was by the Canadian National Railway and which is where the CN part of its name came from (which is actually the shortened name, its full name is Canada's National Tower). Today it is not just a place to visit, but like the Eiffel Tower is an electronic transmitter for phone and tv signals.",
-    // clipart: "/images/clipart/",
+    clipart: "/images/clipart/cntower.jpeg",
     did_you_know_fact: "The tallest tower in the UK is the Emley Moor transmitter tower in Yorkshire standing at just over 330 metres tall.  Do you know of any other towers?",
     landmark_url: "https://www.cntower.ca/intro.html"
   },
