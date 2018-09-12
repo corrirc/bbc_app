@@ -6,13 +6,14 @@ const PubSub = require('../helpers/pub_sub');
   };
 
   SelectView.prototype.countriesbindEvents = function () {
-    PubSub.subscribe('LandmarkModel:countries-ready'), (evt) => {
-      this.populateSelect(evt.detail);
+    PubSub.subscribe('LandmarkModel:countries-ready', (evt) => {
+      this.populateSelect(this.selectElementCountry, evt.detail);
+
   });
 
   SelectView.prototype.continentsbindEvents = function () {
-    PubSub.subscribe('LandmarkModel:continents-ready'), (evt) => {
-      this.populateSelect(evt.detail);
+    PubSub.subscribe('LandmarkModel:continents-ready', (evt) => {
+      this.populateSelect(this.selectElementContinent, evt.detail);
   });
 
   this.selectElementCountry.addEventListener('change', (evt) => {
@@ -23,29 +24,20 @@ const PubSub = require('../helpers/pub_sub');
 
   this.selectElementContinent.addEventListener('change', (evt) => {
       const selectedIndex = evt.target.value;
-      PubSub.publish('DropdownView:continents-selected', selectedIndex);
+      PubSub.publish('DropdownView:continent-selected', selectedIndex);
     });
   };
 
-  SelectView.prototype.populateSelect = function (item) {
-    items.forEach(item, index) => {
-        const option = document.createElement('div');
+  SelectView.prototype.populateSelect = function (container, items) {
+    items.forEach((item) => {
+        const option = document.createElement('option');
         option.textContent = item;
-        option.value = index;
         option.classList.add('option')
-        this.selectElementCountry.appendChild(option);
+        container.appendChild(option);
     });
   };
 
-  // SelectView.prototype.populateSelect = function (continents) {
-  //   countries.forEach((continents, index) => {
-  //       const option = document.createElement('div');
-  //       option.textContent = countries;
-  //       option.value = index;
-  //       option.classList.add('option')
-  //       this.selectElement.appendChild(option);
-  //   });
-  // };
+
 
 
 module.exports = SelectView;
