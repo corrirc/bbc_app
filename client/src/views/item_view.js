@@ -14,7 +14,7 @@ LandmarkGridItemView.prototype.render = function (landmark) {
   const landmarkPic = this.createImage(landmark.clipart);
   landmarkContainer.appendChild(landmarkPic);
 
-  const beenThere = this.createToggle(false);
+  const beenThere = this.createToggle(landmark.been_there);
   landmarkContainer.appendChild(beenThere);
 
   this.container.appendChild(landmarkContainer);
@@ -37,12 +37,14 @@ LandmarkGridItemView.prototype.createToggle = function (status) {
   toggleDiv.classList.add('toggle')
   const beenThere = document.createElement('label');
   beenThere.textContent = "I've Been There";
+  beenThere.classList.add("toggleLabel")
   toggleDiv.appendChild(beenThere);
   const switchLabel = document.createElement('label');
   switchLabel.classList.add('switch');
   toggleDiv.appendChild(switchLabel);
   const inputType = document.createElement('input');
   inputType.type = "checkbox";
+  inputType.checked = status;
   switchLabel.appendChild(inputType);
   const slider = document.createElement('span');
   slider.classList.add('slider');
