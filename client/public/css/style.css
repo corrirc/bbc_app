@@ -104,6 +104,14 @@ h2{
   text-align: center;
 }
 
+.toggle {
+  text-align: center;
+}
+
+.toggleLabel {
+  padding-right: 15px;
+}
+
 .switch {
   position: relative;
   display: inline-block;
