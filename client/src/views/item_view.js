@@ -37,6 +37,7 @@ LandmarkGridItemView.prototype.createToggle = function (status) {
   toggleDiv.classList.add('toggle')
   const beenThere = document.createElement('label');
   beenThere.textContent = "I've Been There";
+  beenThere.classList.add("toggleLabel")
   toggleDiv.appendChild(beenThere);
   const switchLabel = document.createElement('label');
   switchLabel.classList.add('switch');
