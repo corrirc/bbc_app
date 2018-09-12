@@ -1,6 +1,7 @@
 const LandmarkGridView = require('./views/grid_view'); //gridview
 const Landmark = require('./models/landmark'); //model
 const LandmarkView = require('./views/landmark_view');
+const SelectView = require('./views/select_view');
 
 document.addEventListener('DOMContentLoaded', () => {
 
