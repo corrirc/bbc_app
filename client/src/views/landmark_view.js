@@ -28,7 +28,7 @@ LandmarkView.prototype.render = function(landmark) {
   landmarkImage.src = landmark.landmark_picture;
 
   // Map
-  const map = mapWrapper(landmark.landmark_name);
+  const map = mapWrapper(landmark.landmark_name, landmark.landmark_location, landmark.continent);
   const mapContainer = document.createElement('div');
   mapContainer.id = "map-container"
 
