@@ -7,7 +7,6 @@ Request.prototype.get = function(){
     .then((response) => response.json());
 };
 
-
 Request.prototype.update = function(id, status){
   const body = {
     status: status

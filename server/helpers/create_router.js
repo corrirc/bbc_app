@@ -2,7 +2,6 @@ const express = require('express');
 const ObjectID = require('mongodb').ObjectID;
 
 const createRouter = function (collection) {
-
   const router = express.Router();
 
   // INDEX
@@ -78,9 +77,5 @@ const createRouter = function (collection) {
 
   return router;
 };
-
-const returnAll = function(res, collection) {
-
-}
 
 module.exports = createRouter;
