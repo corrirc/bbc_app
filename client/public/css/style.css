@@ -23,6 +23,17 @@ body {
 }
 
 
+#dropdown-container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 20px 300px;
+}
+
+.inline {
+  margin: 0;
+}
+
 h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
