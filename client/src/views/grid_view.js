@@ -7,17 +7,28 @@ const LandmarkGridView = function (container) {
 
 LandmarkGridView.prototype.bindEvents = function () {
   PubSub.subscribe('Landmarks:data-loaded', (event) => {
-    const menuItems = this.render(event.detail);
-    menuItems.forEach((menuItem) => {
-      const image = menuItem.getElementsByTagName('img')[0];
+    // All landmarkViews stored in the array 'landmarkViews' then iterated through 
+    // to add an event listener to each one.
+    const landmarkViews = this.render(event.detail);
+    
+    landmarkViews.forEach((landmarkView) => {
+      // Full landmark info to be rendered when the image is clicked on so the
+      // image element is stored  in this variable.
+      const image = landmarkView.getElementsByTagName('img')[0];
       image.addEventListener('click', (event) => {
+        // The landmark ID was added to the enclosing container so this is 
+        // retirieved here to allow the full record to be searched for in the DB.
         const landmarkID = event.target.parentNode.id;
         PubSub.publish('LandmarkGridItemView:landmark-selected', landmarkID);
       });
-      const toggle = menuItem.getElementsByTagName('input')[0];
+
+      const toggle = landmarkView.getElementsByTagName('input')[0];
       toggle.addEventListener('click', (event) => {
         const id = event.target.parentNode.parentNode.parentElement.id;
         const status = event.target.checked
+        // Only the status field needs to be updated so both that and the 
+        // landmark ID are added in this object to be used later by the model
+        // in a PUT request.
         const data = {
           id: id,
           status: status
@@ -28,10 +39,10 @@ LandmarkGridView.prototype.bindEvents = function () {
   });
 };
 
-LandmarkGridView.prototype.render = function (landmarks) {
+LandmarkGridView.prototype.render = function (landmarkViews) {
   this.container.innerHTML = '';
   const landmarkGridItemView = new LandmarkGridItemView(this.container);
-  landmarks.forEach((landmark) => {
+  landmarkViews.forEach((landmark) => {
     landmarkGridItemView.render(landmark)
   });
 
