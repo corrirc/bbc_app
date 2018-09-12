@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 #header {
   align-items: center;
   height: 350px;
@@ -14,7 +18,7 @@ body {
   background-image: url("/images/landmark.jpg");
   background-size: cover;
   margin-bottom: 50px;
-
+  text-decoration: none;
 }
 
 #header h1 {
@@ -22,6 +26,17 @@ body {
   margin: 0;
 }
 
+
+#dropdown-container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 20px 300px;
+}
+
+.inline {
+  margin: 0;
+}
 
 h1 {
   font-family: 'Poppins', sans-serif;
@@ -91,6 +106,14 @@ h2{
 
 .center {
   text-align: center;
+}
+
+.toggle {
+  text-align: center;
+}
+
+.toggleLabel {
+  padding-right: 15px;
 }
 
 .switch {
