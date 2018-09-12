@@ -24,5 +24,4 @@ document.addEventListener('DOMContentLoaded', () => {
   const landmark = new Landmark();
   landmark.bindEvents();
   landmark.getData();
-
 });

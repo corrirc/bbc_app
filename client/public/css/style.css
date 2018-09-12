@@ -57,6 +57,10 @@ p {
   color: indigo;
 }
 
+li {
+  list-style-type: none ;
+}
+
 #landmarkgrid-container {
   display: flex;
   flex-wrap: wrap;

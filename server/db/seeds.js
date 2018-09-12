@@ -30,7 +30,7 @@ db.landmarks.insertMany([
     continent: "Europe",
     landmark_picture:  "/images/pictures/codeclanglasgow.jpg",
     landmark_facts: "Currently there are only the 2 CodeClan locations, the first is in Edinburgh at Castle Terrace.  CodeClan Glasgow is the second location, and it can be found in the Clockwork Building off Renfrew Street.",
-    clipart: "/images/clipart/cc.png",
+    clipart: "/images/clipart/cc.jpg",
     did_you_know_fact:  "It is the first and only digital skills academy in Scotland that is accredited by SQA.",
     landmark_url: "https://codeclan.com/",
     been_there: false
