@@ -7,7 +7,6 @@ const LandmarkView = function(container) {
 
 LandmarkView.prototype.bindEvents = function() {
   PubSub.subscribe("LandmarkModel:landmark-selected", landmark => {
-
     this.render(landmark.detail);
   })
 }
@@ -19,19 +18,17 @@ LandmarkView.prototype.render = function(landmark) {
   landmarkName.textContent = landmark.landmark_name;
   this.container.appendChild(landmarkName);
 
-  // Landmark Image and Map
+
+  // Container for both  thelandmark Image and Map
   const imageContainer = document.createElement('div');
   imageContainer.classList.add('center');
-
   // Image
   const landmarkImage = document.createElement('img');
   landmarkImage.src = landmark.landmark_picture;
-
   // Map
   const map = mapWrapper(landmark.landmark_name, landmark.landmark_location, landmark.continent);
   const mapContainer = document.createElement('div');
   mapContainer.id = "map-container"
-
   // Append containers
   imageContainer.appendChild(landmarkImage);
   mapContainer.appendChild(map);
@@ -39,15 +36,13 @@ LandmarkView.prototype.render = function(landmark) {
   this.container.appendChild(imageContainer);
 
 
-
   const landmarkLocation = document.createElement('h3');
   landmarkLocation.textContent = `Location: ${landmark.landmark_location}`
   this.container.appendChild(landmarkLocation);
 
-    const landmarkFacts = document.createElement('p');
+  const landmarkFacts = document.createElement('p');
   landmarkFacts.textContent = landmark.landmark_facts;
   this.container.appendChild(landmarkFacts);
-
 
   const didYouKnowHeader = document.createElement('h3');
   didYouKnowHeader.textContent = 'Did you know?';
@@ -62,6 +57,8 @@ LandmarkView.prototype.render = function(landmark) {
   landmarkLink.textContent = 'Click for more info.'
   this.container.appendChild(landmarkLink);
 
+  // When a landmark is clicked, scroll to the secction containing the full
+  // landmark information.
   const landmarkID = document.getElementById('landmark-info');
   landmarkID.scrollIntoView({
     behavior: 'smooth',

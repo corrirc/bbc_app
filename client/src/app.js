@@ -4,14 +4,11 @@ const LandmarkView = require('./views/landmark_view');
 const SelectView = require('./views/select_view');
 
 document.addEventListener('DOMContentLoaded', () => {
-
   const selectContinents = document.querySelector('#continents');
-
   const selectCountries = document.querySelector('#countries');
   const selectView = new SelectView(selectCountries, selectContinents);
   selectView.countriesbindEvents();
   selectView.continentsbindEvents();
-
 
   const landmarkContainer = document.querySelector('#landmarkgrid-container');
   const landmarkGridView = new LandmarkGridView(landmarkContainer);

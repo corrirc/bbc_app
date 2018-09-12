@@ -8,7 +8,6 @@ const PubSub = require('../helpers/pub_sub');
   SelectView.prototype.countriesbindEvents = function () {
     PubSub.subscribe('LandmarkModel:countries-ready', (evt) => {
       this.populateSelect(this.selectElementCountry, evt.detail);
-
   });
 
   SelectView.prototype.continentsbindEvents = function () {
@@ -36,8 +35,5 @@ const PubSub = require('../helpers/pub_sub');
         container.appendChild(option);
     });
   };
-
-
-
 
 module.exports = SelectView;
