@@ -21,13 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const landmarkView = new LandmarkView(landmarkViewContainer);
   landmarkView.bindEvents();
 
-  const navViewContainer = document.querySelector('#nav');
-  const navView = new NavView(navViewContainer);
-  navView.bindEvents();
-
-
   const landmark = new Landmark();
   landmark.bindEvents();
   landmark.getData();
-
 });
