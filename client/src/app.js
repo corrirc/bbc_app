@@ -5,8 +5,10 @@ const SelectView = require('./views/select_view');
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  const select = document.querySelector('#countries');
-  const selectView = new SelectView(select);
+  const selectContinents = document.querySelector('#continents');
+
+  const selectCountries = document.querySelector('#countries');
+  const selectView = new SelectView(selectCountries, selectContinents);
   selectView.countriesbindEvents();
   selectView.continentsbindEvents();
 
